@@ -1,0 +1,135 @@
+# --- Compiled object files ---
+*.o
+*.obj
+*.lo
+*.slo
+
+# --- Precompiled headers ---
+*.gch
+*.pch
+
+# --- Compiled Dynamic Libraries ---
+*.so
+*.dylib
+*.dll
+
+# --- Compiled Static Libraries ---
+*.a
+*.lib
+*.la
+
+# --- Executables ---
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# --- Debug files / symbols ---
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# --- Build directories ---
+build/
+Build/
+bin/
+Bin/
+obj/
+Obj/
+out/
+Out/
+Debug/
+Release/
+x64/
+x86/
+*.VC.db
+*.VC.VC.opendb
+
+# --- CMake ---
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# --- Autotools ---
+*.lo
+*.la
+*.lai
+*.dep
+autom4te.cache/
+aclocal.m4
+compile
+config.guess
+config.log
+config.status
+config.sub
+configure
+depcomp
+install-sh
+ltmain.sh
+missing
+mkinstalldirs
+
+# --- Qt / QMake ---
+*.pro.user
+*.qbs.user
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# --- Visual Studio / Visual Studio Code ---
+.vscode/
+.vs/
+*.user
+*.suo
+*.ncb
+*.aps
+*.pch
+*.pdb
+*.idb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+# --- JetBrains / CLion ---
+.idea/
+cmake-build-*/
+
+# --- Logs and temp ---
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.dmp
+*.stackdump
+
+# --- OS-specific ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- Other build tools ---
+*.mk
+*.make
+*.ninja
+.ninja_deps
+.ninja_log
+
+# --- Generated test data / cache ---
+.cache/
+*.gcda
+*.gcno
+*.gcov
+coverage/
