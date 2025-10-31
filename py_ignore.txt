@@ -34,6 +34,7 @@ ENV/
 .pyenv/
 pip-wheel-metadata/
 __pypackages__/
+.env
 
 # --- PyInstaller ---
 # Often includes build artifacts or bundled files
