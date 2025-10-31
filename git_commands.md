@@ -7,7 +7,7 @@ git switch "branch name"
 ### create branch
 git checkout -b "branch name"
 
-### pull file from other branck
+### overwrite file from other branck
 git checkout "branch name" -- "file path1" "file path2"
 
 ### pull from remote
