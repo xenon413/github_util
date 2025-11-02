@@ -7,6 +7,12 @@ git switch "branch name"
 ### create branch
 git checkout -b "branch name"
 
+### delete branch
+git checkout -d "branch name"
+
+### force delete brance
+git checkout -D "branch name"
+
 ### overwrite file from other branck
 git checkout "branch name" -- "file path1" "file path2"
 
