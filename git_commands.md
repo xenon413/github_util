@@ -4,6 +4,9 @@
 git checkout "branch name"\
 git switch "branch name"
 
+### show all branch
+git branch -a
+
 ### create branch
 git checkout -b "branch name"
 
@@ -15,6 +18,9 @@ git checkout -D "branch name"
 
 ### overwrite file from other branck
 git checkout "branch name" -- "file path1" "file path2"
+
+
+
 
 ### pull from remote
 git pull origin "branch name"
