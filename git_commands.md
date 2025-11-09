@@ -16,3 +16,5 @@ git pull origin "branch name"
 ### push to remote
 git push origin "branch name"
 
+git config user.name your_user_name
+git config user.email your_email
