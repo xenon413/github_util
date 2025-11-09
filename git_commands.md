@@ -1,7 +1,8 @@
 # common git commands
 
 ### switch branch
-git checkout "branch name"\
+git checkout "branch name"
+
 git switch "branch name"
 
 ### show all branch
