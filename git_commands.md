@@ -34,3 +34,5 @@ git config user.email your_email
 git branch -m "new branch name"
 git branch -m "old branch name" "new branch name"
 
+
+git fetch origin
