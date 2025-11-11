@@ -34,5 +34,5 @@ git config user.email your_email
 git branch -m "new branch name"
 git branch -m "old branch name" "new branch name"
 
-
+### check for updates from GitHub
 git fetch origin
