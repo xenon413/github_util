@@ -36,3 +36,6 @@ git branch -m "old branch name" "new branch name"
 
 ### check for updates from GitHub
 git fetch origin
+
+### clean up remote
+git fetch --prune
