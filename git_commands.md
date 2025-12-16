@@ -12,10 +12,10 @@ git branch -a
 git checkout -b "branch name"
 
 ### delete branch
-git checkout -d "branch name"
+git branch -d "branch name"
 
 ### force delete brance
-git checkout -D "branch name"
+git branch -D "branch name"
 
 ### overwrite file from other branck
 git checkout "branch name" -- "file path1" "file path2"
